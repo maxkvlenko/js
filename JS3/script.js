@@ -10,7 +10,7 @@ num++;
 num--;
 alert(num);
 
-// Задание 2
+// // Задание 2
 let a = 17;
 let b = 10;
 let c;
@@ -25,8 +25,11 @@ let time = new Date();
 let hour = time.getHours(); 
 let minutes = time.getMinutes(); 
 let sec = time.getSeconds();
-alert(time);
+alert(`${hour}:${minutes}:${sec}`);
 
-// Задание 4
-
-
+// Задание 3 (вариант 2)
+let time = new Date();
+let hour = "час:"; 
+let minutes = "минута:"; 
+let sec = "секунда";
+alert(hour+minutes+sec);
