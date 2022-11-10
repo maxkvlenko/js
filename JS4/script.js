@@ -43,7 +43,7 @@ if (znak < 0) {
         alert('Осень');}
     if (month == 11) {
         alert('Осень');}
-    else {
+    if (month >= 13) {
     alert('Нет такого месяца в году');}
 
 // Задание 3 (вариант 2)
@@ -124,4 +124,11 @@ let num2= prompt('Введите второе число!', '');
     else {
     alert('0');}
 
-
+// Задание 5 (второй вариант)
+let num1= prompt('Введите первое число!', '');
+let num2= prompt('Введите второе число!', '');
+let result=
+    num1 > num2 ? num1;
+    num1 < num2 ? num2;
+    num1 == num2 ? '0';
+    alert(result);
